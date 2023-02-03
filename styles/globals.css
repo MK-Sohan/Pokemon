@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.background {
+  /* background-image: url("");
+  background-repeat: no-repeat;
+  z-index: 1; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.backgroundtwo {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.index {
+  z-index: 999;
+}
+
+.clip {
+  clip-path: polygon(0% 0%, 100% 0, 100% 83%, 78% 100%, 0% 100%);
+}
+.hovereffect > div > div > {
+  transition-delay: 6s;
+}
+.ssection {
+  background-image: url("https://i.ibb.co/qpWgn03/Brush.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.font {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+
+.font_family {
+  font-family: "Ubuntu", sans-serif;
+}
